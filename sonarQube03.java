@@ -1,5 +1,3 @@
-package main;
-
 public class SonarQube03 {
     int calcNumbers(int start){
         int accumulator = start;
