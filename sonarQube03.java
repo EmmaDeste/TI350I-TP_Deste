@@ -1,8 +1,9 @@
-public class sonarQube03 {
+package main;
+
+public class SonarQube03 {
     int calcNumbers(int start){
         int accumulator = start;
-        boolean success = true;
-        while(success){
+        while(accumulator < 20){
             accumulator = accumulator + start;
         }
         return accumulator;
