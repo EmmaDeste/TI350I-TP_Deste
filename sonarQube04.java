@@ -1,6 +1,8 @@
-public class sonarQube04 {
-    private int x;
-    private int y = 0;
-    int getX() { return y;}
-    void setX(int val){ y = val; }
+package main;
+
+public class SonarQube04 
+{
+    private int x = 0;
+    int getX() { return x;}
+    void setX(int val){ this.x = val; }
 }
